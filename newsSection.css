@@ -1,0 +1,113 @@
+.allNewsButton {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #6c88bc; 
+    display: flex;
+    color: #6c88bc;
+    font-size: 25px;
+    align-items: center;
+    gap: 36px;
+    padding: 0;
+    padding: 27px 0;
+    outline: none;
+    &:active {
+        transform: scale(0.95);
+    }
+}
+
+.blueArrow {
+    display: flex;
+    align-items: center;
+}
+
+.newsSectionControls {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.allNewsButtonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.newsCard {
+    background-color: #f2f2f2;
+    padding: 13px 11px 13px 12px;
+    width: 308px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    & span {
+        font-size: 13px;
+        display: flex;
+        max-width: 246px;
+        line-height: 2em;
+    }
+    margin-left: 13px;
+    &:first-child {
+        margin: 0;
+    }
+}
+
+.newsCardDate {
+    position: absolute;
+    top: 209px;
+    left: 21px;
+    background-color: #fff;
+    padding: 5px 8px 6px 8px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    height: 23px;
+    & span {
+        font-size: 11.4px;
+    }
+}
+
+.subBackground {
+    background-image: url('assets/subBg.webp');
+}
+
+.subSection {
+    display: flex;
+    height: 236px;
+    align-items: center;
+}
+
+.subLeft {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    & span {
+        max-width: 480px;
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+}
+
+.subRight {
+    width: 50%;
+    display: flex;
+    justify-content: center
+}
+
+.subInput {
+    width: fit-content;
+}
+
+.subButton {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    &:active {
+        transform: scale(0.95);
+    }
+}

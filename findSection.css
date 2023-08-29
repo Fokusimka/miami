@@ -1,0 +1,77 @@
+.mainBackground {
+    background-image: url('assets/bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.mainHeader {
+    margin: 120px 0 84px 0;
+    color: #fff
+}
+
+.mainHeaderH1 {
+    margin: 12px 0;
+    font-size: 55px;
+    max-width: 260px;
+}
+
+.mainHeaderP {
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+.searchSection {
+    display: flex;
+    justify-content: center;
+}
+
+.searchTab {
+    background-color: #fff;
+    padding: 19px 24px 16px 28px;
+    color: #474747;
+    max-width: fit-content;
+    margin-bottom: 1px;
+    font-size: 13px;
+}
+
+.searchView {
+    background-color: #fff;
+    padding: 27px 22px 27px 27px;
+    gap: 15px;
+    display: flex;
+    width: fit-content;
+    margin-bottom: 63px;
+}
+
+.searchInput {
+    border: 1px solid #d7d7d7;
+    padding: 0 16px;
+    width: 365px;
+    height: 48px;
+    outline: none;
+}
+
+.searchOption {
+    width: 158px;
+    border: 1px solid #d7d7d7;
+    padding: 0 17px;
+    appearance:none;
+    background-position: calc(100% - 16px) center !important;
+    background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' fill='c3c3c3' class='bi bi-chevron-down' viewBox='0 0 16 16'> <path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/> </svg>") no-repeat;
+}
+
+.searchButton {
+    width: 50px;
+    height: 50px;
+    background-color: #6c88bc;
+    padding: 16px;
+    border: none;
+    &:active {
+        transform: scale(0.95);
+    }
+    &:hover {
+        box-shadow: 0 0 5px #6c88bc;
+    }
+}

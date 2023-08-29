@@ -1,0 +1,16 @@
+input[type=email]{
+    color: #fff;
+}
+
+button {
+    cursor: pointer;
+}
+
+span, p {
+    cursor: default;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}

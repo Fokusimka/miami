@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miami</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="main.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="header.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="nav.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="findSection.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="featuredSection.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="propertiesSection.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="newDevelopmentsSection.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="newsSection.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="footer.css" media="screen" />
+    <link rel="icon" type="image/x-icon" href="assets/logo.png">
+</head>
+<body>
+    <header class="header backgroundWrap">
+        <div class="headerContainer wrap">
+            <div class="headerRow">
+                <img src="./assets/logo.png" alt="logo" />
+                <div class="headerInputContainer">
+                    <img src="./assets/magnifier.png" alt="magnifier">
+                    <input class="headerInput" placeholder="Start typing for a quick property search" />
+                </div>
+            </div>
+            <div class="headerRow">
+                <div class="contactsBlock">
+                    <div class="contactsBlockTextWithImage">
+                        <img src="./assets/phone.png" alt="telephone" />
+                        <span>MIAMI OFFICE</span>
+                    </div>
+                    <span>305.339.4265</span>
+                </div>
+                <div class="headerLanguageBlock">
+                    <img class="imageContainer imageContainerSelected" src="./assets/langs/usa.png" alt="flag" />
+                    <img class="imageContainer" src="./assets/langs/china.png" alt="flag" />
+                    <img class="imageContainer" src="./assets/langs/spanish.png" alt="flag" />
+                    <img class="imageContainer" src="./assets/langs/rus.png" alt="flag" />
+                </div>
+                <div class="headerSocialBlock">
+                    <img class="imageContainer" src="./assets/social/whatsapp.png" alt="flag" />
+                    <img class="imageContainer" src="./assets/social/telegram.png" alt="flag" />
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navContainer ">
+        <a href="#" class="navItem" >PROPERTIES</a>
+        <a href="#" class="navItem" >COMMUNITIES</a>
+        <a href="#" class="navItem" >NEW DEVELOPMENTS</a>
+        <a href="#" class="navItem" >COMMERCIAL</a>
+        <a href="#" class="navItem" >EB-5</a>
+        <a href="#" class="navItem" >NEWS</a>
+        <a href="#" class="navItem" >CONCAT</a>
+        <img src="assets/menu.png" alt="Menu" class="navMenu" />
+    </nav>
+
+    <section class="backgroundWrap mainBackground">
+        <div class="wrap">
+            <div class="mainHeader">
+                <h1 class="mainHeaderH1">Real estate in Miami</h1>
+                <p class="mainHeaderP">Ready-to-buy appartaments, villes and townhouses</p>
+            </div>
+            <div class="searchSection">
+                <div>
+                    <div class="searchTab">
+                        <span>FIND ON MAP</span>
+                    </div>
+                    <div class="searchView">
+                        <input placeholder="City, address, zip" type="text" class="searchInput" />
+                        <select name="Price" id="Price-select" class="searchOption">
+                            <option value="0">Price</option>
+                            <option value="100">0-100$</option>
+                            <option value="300">100-300$</option>
+                            <option value="800">300-800$</option>
+                            <option value="more">more then 800$</option>
+                        </select>
+                        <select name="Options" id="Options-select" class="searchOption">
+                            <option value="standart">Bed and Bath</option>
+                            <option value="prime">+ Wi-Fi</option>
+                            <option value="premium">+ Personal safe</option>
+                            <option value="VIP">+ Jacuzzi</option>
+                            <option value="AllInclusive">All inclusive</option>
+                        </select>
+                        <button class="searchButton"><img src="assets/WhiteMagnifier.png" alt="Search" /></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="backgroundWrap communitiesSection">
+        <div class="wrap">
+            <div class="sectionHeader">
+                <img src="assets/line.png" alt="line" />
+                <span>COMMUNITIES</span>
+            </div>
+            <div class="communitiesSectionControls">
+                <div class="sectionName">
+                    <h1 class="sectionNameText">Featured</h1>
+                    <h1 class="sectionNameText">Communities</h1>
+                </div>
+                <div class="sliderArrows">
+                    <a class="sliderControlBox" href="#slides__1" title="Prev">
+                        <img src="assets/arrowLeft.png" width="5" height="7"/>
+                        <img src="assets/arrowBody.png" class="sliderFirstArrowBody" />
+                    </a>
+                    <a class="sliderControlBox" href="#slides__2" title="Next">
+                        <img src="assets/arrowRight.png" width="5" height="7"/>
+                        <img src="assets/arrowBody.png" class="sliderSecondArrowBody" />
+                    </a>
+                </div>
+            </div>
+            <div class="slides">
+                <div id="slides__1" class="slide">
+                    <div class="sliderCard">
+                        <img src="assets/slides/1.webp" alt="picture" class="sliderCardImg" />
+                        <div class="sliderCardText">
+                            <span>Palm Beach</span>
+                            <p>Be closer to nature in houses designed in a garden theme.</p>
+                        </div>
+                    </div>
+                    <div class="sliderCard">
+                        <img src="assets/slides/2.webp" alt="picture" class="sliderCardImg" />
+                        <div class="sliderCardText">
+                            <span>Jupiter Island</span>
+                            <p>Be closer to nature in houses designed in a garden theme.</p>
+                        </div>
+                    </div>
+                    <div class="sliderCard">
+                        <img src="assets/slides/3.webp" alt="picture" class="sliderCardImg" />
+                        <div class="sliderCardText">
+                            <span>Singer Island</span>
+                            <p>Be closer to nature in houses designed in a garden theme.</p>
+                        </div>
+                    </div>
+                    <div class="sliderCard">
+                        <img src="assets/slides/4.webp" alt="picture" class="sliderCardImg" />
+                        <div class="sliderCardText">
+                            <span>Juno Beach</span>
+                            <p>Be closer to nature in houses designed in a garden theme.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="slides__2" class="slide">
+                    <div class="sliderCard">
+                        <img src="assets/slides/5.webp" alt="picture" class="sliderCardImg" />
+                        <div class="sliderCardText">
+                            <span>West Palm Beach</span>
+                            <p>Be closer to nature in houses designed in a garden theme.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sectionButtonContainer">
+                <button class="sectionButton whiteColor">
+                    to all communities
+                    <img src="assets/whiteArrowRight.png" />
+                </button>
+            </div>
+            <div class="callback">
+                <div class="column">
+                    <span class="callbackHeader whiteColor">Prompt consultation</span>
+                    <span class="callbackDescription whiteColor">Fill in the form and our agent will contact you shortly</span>
+                </div>
+                <div class="callbackRow">
+                    <div class="callbackInput">
+                        <img src="assets/phoneBlue.png" alt="phone" />
+                        <input placeholder="Enter your phone" class="callbackNonStyledInput" />
+                    </div>
+                    <button class="callbackButton">
+                        Send 
+                        <div class="callbackArrow">
+                            <img src="assets/arrowBody.png" alt="arrowBody" />
+                            <img src="assets/arrowRight.png" alt="arrow" />
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="backgroundWrap">
+        <div class="wrap">
+            <div class="sectionHeader">
+                <img src="assets/line.png" alt="line" />
+                <span>PROPERTIES</span>
+            </div>
+            <div class="sectionName">
+                <h1 class="sectionNameText">Featured</h1>
+                <h1 class="sectionNameText">Properties</h1>
+            </div>
+            <div class="propertiesSection">
+                <div class="propertiesCard">
+                    <img src="assets/properties/1.webp" alt="Image" />
+                    <div class="propertiesCost">
+                        <span>Armani Tower</span>
+                        <span>$ 5,480,000</span>
+                    </div>
+                    <div class="propertiesDetails">
+                        <span><img src="assets/properties/bed.png" alt="Bed" /> 5 Beds</span>
+                        <span><img src="assets/properties/bath.png" alt="Bath" /> 5.5 Baths</span>
+                        <span><img src="assets/properties/area.png" alt="Area" /> 2,268 ft² (249 m2)</span>
+                    </div>
+                </div>
+                <div class="propertiesCard">
+                    <img src="assets/properties/2.webp" alt="Image" />
+                    <div class="propertiesCost">
+                        <span>Acqualina</span>
+                        <span>$ 2,890,000</span>
+                    </div>
+                    <div class="propertiesDetails">
+                        <span><img src="assets/properties/bed.png" alt="Bed" /> 3 Beds</span>
+                        <span><img src="assets/properties/bath.png" alt="Bath" /> 3 Baths</span>
+                        <span><img src="assets/properties/area.png" alt="Area" /> 2,214 ft² (206 m2)</span>
+                    </div>
+                </div>
+                <div class="propertiesCard">
+                    <img src="assets/properties/3.webp" alt="Image" />
+                    <div class="propertiesCost">
+                        <span>Green Diamond</span>
+                        <span>$ 3,200,000</span>
+                    </div>
+                    <div class="propertiesDetails">
+                        <span><img src="assets/properties/bed.png" alt="Bed" /> 3 Beds</span>
+                        <span><img src="assets/properties/bath.png" alt="Bath" /> 3 Baths</span>
+                        <span><img src="assets/properties/area.png" alt="Area" /> 1,980 ft² (184 m2)</span>
+                    </div>
+                </div>
+                <div class="propertiesCard">
+                    <img src="assets/properties/4.webp" alt="Image" />
+                    <div class="propertiesCost">
+                        <span>Porto Vita</span>
+                        <span>$ 2,500,000</span>
+                    </div>
+                    <div class="propertiesDetails">
+                        <span><img src="assets/properties/bed.png" alt="Bed" /> 2 Beds</span>
+                        <span><img src="assets/properties/bath.png" alt="Bath" /> 2,5 Baths</span>
+                        <span><img src="assets/properties/area.png" alt="Area" /> 2,056 ft² (191 m2)</span>
+                    </div>
+                </div>
+                <div class="propertiesCard">
+                    <img src="assets/properties/5.webp" alt="Image" />
+                    <div class="propertiesCost">
+                        <span>Porsche Design Tower</span>
+                        <span>$ 7,250,000</span>
+                    </div>
+                    <div class="propertiesDetails">
+                        <span><img src="assets/properties/bed.png" alt="Bed" /> 5 Beds</span>
+                        <span><img src="assets/properties/bath.png" alt="Bath" /> 4,5 Baths</span>
+                        <span><img src="assets/properties/area.png" alt="Area" /> 8,407 ft² (781 m2)</span>
+                    </div>
+                </div>
+                <div class="propertiesCard">
+                    <img src="assets/properties/6.webp" alt="Image" />
+                    <div class="propertiesCost">
+                        <span>Arte Surfside</span>
+                        <span>$ 11,900,000</span>
+                    </div>
+                    <div class="propertiesDetails">
+                        <span><img src="assets/properties/bed.png" alt="Bed" /> 3 Beds</span>
+                        <span><img src="assets/properties/bath.png" alt="Bath" /> 3,5 Baths</span>
+                        <span><img src="assets/properties/area.png" alt="Area" /> n/a ft² (n/a m2)</span>
+                    </div>
+                </div>
+                <div class="propertiesCard">
+                    <img src="assets/properties/7.webp" alt="Image" />
+                    <div class="propertiesCost">
+                        <span>Jade Beach</span>
+                        <span>$ 4,650,000</span>
+                    </div>
+                    <div class="propertiesDetails">
+                        <span><img src="assets/properties/bed.png" alt="Bed" /> 4 Beds</span>
+                        <span><img src="assets/properties/bath.png" alt="Bath" /> 6,5 Baths</span>
+                        <span><img src="assets/properties/area.png" alt="Area" /> 4,141 ft² (385 m2)</span>
+                    </div>
+                </div>
+                <div class="propertiesCard">
+                    <img src="assets/properties/8.webp" alt="Image" />
+                    <div class="propertiesCost">
+                        <span>Aria Reserve</span>
+                        <span>$ 800,000</span>
+                    </div>
+                    <div class="propertiesDetails">
+                        <span><img src="assets/properties/bed.png" alt="Bed" /> 4 Beds</span>
+                        <span><img src="assets/properties/bath.png" alt="Bath" /> 4 Baths</span>
+                        <span><img src="assets/properties/area.png" alt="Area" /> 1,059 - 2,584 sq.ft</span>
+                    </div>
+                </div>
+                <div class="propertiesCard">
+                    <img src="assets/properties/9.webp" alt="Image" />
+                    <div class="propertiesCost">
+                        <span>Miami WorldCenter</span>
+                        <span>$ 1,350,000</span>
+                    </div>
+                    <div class="propertiesDetails">
+                        <span><img src="assets/properties/bed.png" alt="Bed" /> 2 Beds</span>
+                        <span><img src="assets/properties/bath.png" alt="Bath" /> 2 Baths</span>
+                        <span><img src="assets/properties/area.png" alt="Area" /> 402 to 830 sq.ft</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sectionButtonContainer">
+                <button class="sectionButton whiteColor">
+                    to all properties
+                    <img src="assets/whiteArrowRight.png" />
+                </button>
+            </div>
+            <div class="callback">
+                <span class="callbackHeader whiteColor">Couldn't find a property you like ?</span>
+                <button class="callbackButton callbackButtonProperties">
+                    Let us help you 
+                    <div class="callbackArrow">
+                        <img src="assets/arrowBody.png" alt="arrowBody" />
+                        <img src="assets/arrowRight.png" alt="arrow" />
+                    </div>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="backgroundWrap">
+        <div class="wrap">
+            <div class="developmentsRow developmentsRowExtended">
+                <div>
+                    <div class="sectionHeader">
+                        <img src="assets/line.png" alt="line" />
+                        <span>PROPERTIES</span>
+                    </div>
+                    <div class="sectionName">
+                        <h1 class="sectionNameText">New</h1>
+                        <h1 class="sectionNameText">Developments</h1>
+                    </div>
+                    <span class="developmentsDescription">
+                        Our properties each have their own unique design
+                        aesthetic, providing an aspirational lifestyle within
+                        a thriving community, supported by Emaar's
+                        Community management team.
+                    </span>
+                    <button class="sectionButton whiteColor">
+                        to all properties
+                        <img src="assets/whiteArrowRight.png" />
+                    </button>
+                </div>
+                <div class="developmentsRow">
+                    <div class="developmentsImageWithText">
+                        <img src="assets/new devs/1.webp" alt="picture" />
+                        <span class="developmentsImageText">
+                            <img src="assets/blueLine.png" alt="line" />
+                            ALINA RESIDENCES BOCA RATON
+                        </span>
+                    </div>
+                    <div class="developmentsColumn">
+                        <div class="developmentsImageWithText">
+                            <img src="assets/new devs/2.webp" alt="picture" />
+                            <span class="developmentsImageText">
+                                <img src="assets/blueLine.png" alt="line" />
+                                PRIVATE RECIDENCES FORT LAUDERDALE
+                            </span>
+                        </div>
+                        <div class="developmentsImageWithText">
+                            <img src="assets/new devs/3.webp" alt="picture" />
+                            <span class="developmentsImageText">
+                                <img src="assets/blueLine.png" alt="line" />
+                                MR. C TIGERTAIL RECIDENCES
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="callback">
+                <div class="column">
+                    <span class="callbackHeader whiteColor">Prompt consultation</span>
+                    <span class="callbackDescription whiteColor">Fill in the form and our agent will contact you shortly</span>
+                </div>
+                <div class="callbackRow">
+                    <div class="callbackInput">
+                        <img src="assets/phoneBlue.png" alt="phone" />
+                        <input placeholder="Enter your phone" class="callbackNonStyledInput" />
+                    </div>
+                    <button class="callbackButton">
+                        Send 
+                        <div class="callbackArrow">
+                            <img src="assets/arrowBody.png" alt="arrowBody" />
+                            <img src="assets/arrowRight.png" alt="arrow" />
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="backgroundWrap">
+        <div class="wrap">
+            <div class="sectionHeader">
+                <img src="assets/line.png" alt="line" />
+                <span>NEWS</span>
+            </div>
+            <div class="communitiesSectionControls">
+                <div class="newsSectionControls">
+                    <div class="sectionName">
+                        <h1 class="sectionNameText">Real Estate</h1>
+                        <h1 class="sectionNameText">News</h1>
+                    </div>
+                    <div class="sliderArrows">
+                        <a class="sliderControlBox" href="#slides__3" title="Prev">
+                            <img src="assets/arrowLeft.png" width="5" height="7"/>
+                            <img src="assets/arrowBody.png" class="sliderFirstArrowBody" />
+                        </a>
+                        <a class="sliderControlBox" href="#slides__4" title="Next">
+                            <img src="assets/arrowRight.png" width="5" height="7"/>
+                            <img src="assets/arrowBody.png" class="sliderSecondArrowBody" />
+                        </a>
+                    </div>
+                </div>
+                <div class="allNewsButtonContainer">
+                    <button class="allNewsButton">
+                        all news
+                        <div class="blueArrow">
+                            <img src="assets/blueArrowLine.png" alt="arrowRigtBlue" />
+                            <img src="assets/blueArrowBody.png" alt="blueArrowBody" />
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="slides">
+                <div id="slides__3" class="slide">
+                    <div class="newsCard">
+                        <img src="assets/news/1.webp" alt="picture" />
+                        <div class="newsCardDate">
+                            <img src="assets/news/calendar.png" alt="calendar" />
+                            <span>14.04.2023</span>
+                        </div>
+                        <span>
+                            FLORIDA RANKED SECOND IN THE LIST OF BEST US STATES TO CREATE A NEW BUSINESS
+                        </span>
+                    </div>
+                    <div class="newsCard">
+                        <img src="assets/news/2.webp" alt="picture" />
+                        <div class="newsCardDate">
+                            <img src="assets/news/calendar.png" alt="calendar" />
+                            <span>14.04.2023</span>
+                        </div>
+                        <span>
+                            VOLUME OF NEW RESIDENTIAL CONSTRUCTION IN FLORIDA IS AMONG THE GREATEST IN THE USA
+                        </span>
+                    </div>
+                    <div class="newsCard">
+                        <img src="assets/news/3.webp" alt="picture" />
+                        <div class="newsCardDate">
+                            <img src="assets/news/calendar.png" alt="calendar" />
+                            <span>14.04.2023</span>
+                        </div>
+                        <span>
+                            A MANSION WITH UNIQUE ARCHITECTURE IS LISTED FOR SALE IN SARASOTA, FLORIDA, FOR $10 MILLION
+                        </span>
+                    </div>
+                    <div class="newsCard">
+                        <img src="assets/news/4.webp" alt="picture" />
+                        <div class="newsCardDate">
+                            <img src="assets/news/calendar.png" alt="calendar" />
+                            <span>14.04.2023</span>
+                        </div>
+                        <span>
+                            HIGH-END PROPERTY MARKET IN SOUTH FLORIDA RETURNED TO NORMAL IN 2022
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="backgroundWrap subBackground">
+        <div class="wrap subSection">
+            <div class="subLeft">
+                <div class="sectionName">
+                    <h1 class="sectionNameText whiteColor">Sing up</h1>
+                    <h1 class="sectionNameText">for updates</h1>
+                </div>
+                <span class="whiteColor">
+                    Subscribe to receive the latest real estate market updates, exclusive new
+                    lstings, architecture and design inspiration and more.
+                </span>
+            </div>
+            <div class="subRight">
+                <div class="callbackInput subInput">
+                    <img src="assets/mail.png" alt="phone" />
+                    <input placeholder="Enter your email address" class="callbackNonStyledInput" type="email" />
+                    <button class="subButton">
+                        Singup 
+                        <img src="assets/whiteArrowRight.png" alt="arrow" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="backgroundWrap">
+        <div class="wrap">
+            <div class="footerLayout">
+                <img src="assets/logo.png" alt="logo" class="footerLogo" />
+                <div class="footerColumn">
+                    <span class="footerColumnName">PROPERTIES</span>
+                    <a href="#">Apartments</a>
+                    <a href="#">At home</a>
+                    <a href="#">Apartments</a>
+                    <a href="#">Penthouses</a>
+                    <a href="#">Villas</a>
+                </div>
+                <div class="footerColumn">
+                    <span class="footerColumnName">SERVICES</span>
+                    <a href="#">Oceanfront Condos</a>
+                    <a href="#">Single Family Homes</a>
+                    <a href="#">New Developments</a>
+                    <a href="#">Instant Estimate</a>
+                    <a href="#">Market Trends</a>
+                </div>
+                <div class="footerColumn">
+                    <span class="footerColumnName footerEmptyName"></span>
+                    <a href="#">Commercial Real Estate</a>
+                    <a href="#">Most Exclusive</a>
+                    <a href="#">Foreclosures</a>
+                    <a href="#">Just Listed</a>
+                    <a href="#">Miami's Tallest Buildings</a>
+                </div>
+                <div class="footerColumn">
+                    <span class="footerColumnName">ABOUT</span>
+                    <a href="#">About us</a>
+                    <a href="#">Partners</a>
+                    <a href="#">Contacts</a>
+                    <a href="#">Support</a>
+                </div>
+                <div class="footerColumn">
+                    <span class="footerColumnName">CONTACTS</span>
+                    <div class="contactsBlockTextWithImage">
+                        <img src="./assets/phone.png" alt="telephone" />
+                        <span>MIAMI OFFICE</span>
+                    </div>
+                    <span class="footerPhoneNumber">305.339.4265</span>
+                    <span>E-mail: info@viva.com</span>
+                    <span class="footerWirkingHours">Mon - Sat: from 9:00-18:00</span>
+                    <div class="footerSocial">
+                        <img src="assets/social/telegramBlack.png" alt="telegram" class="footerSocialItem" />
+                        <img src="assets/social/whatsappBlack.png" alt="whatsapp" class="footerSocialItem" />
+                        <img src="assets/social/instagram.png" alt="instagram" class="footerSocialItem" />
+                        <img src="assets/social/facebook.png" alt="facebook" class="footerSocialItem" />
+                        <img src="assets/social/youtube.png" alt="youtube" class="footerSocialItem" />
+                        <img src="assets/social/twitter.png" alt="twitter" class="footerSocialItem" />
+                    </div>
+                </div>
+            </div>
+            <div class="footerRightsBlock">
+                <span>© 2023 Aviva Estate. Privacy policу.</span>
+                <div class="footerAdvanceMedia">
+                    <span>Website development</span>
+                    <img src="assets/advanceMedia.png" alt="advans media" />
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

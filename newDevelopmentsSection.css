@@ -1,0 +1,35 @@
+.developmentsRow {
+    display: flex;
+    gap: 15px;
+}
+
+.developmentsRowExtended {
+    gap: 60px;
+}
+
+.developmentsColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.developmentsDescription {
+    display: flex;
+    margin: 36px 0 57px 0;
+    max-width: 310px;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+.developmentsImageWithText {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-bottom: 24px;
+}
+
+.developmentsImageText {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 11px;
+}

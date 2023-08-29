@@ -1,0 +1,76 @@
+.header {
+    margin: 16px 0;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerRow {
+    display: flex;
+    align-items: center;
+}
+
+.headerInputContainer {
+    margin: 0 30px;
+    border: 1px solid #dcdcdc;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    width: 294px;
+    height: 43px;
+    gap: 14px
+}
+
+.headerInput {
+    border: 0px;
+    outline: none;
+    width: 247px;
+    height: 13px;
+}
+
+.contactsBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.contactsBlockTextWithImage {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+
+.headerLanguageBlock {
+    display: flex;
+    gap: 8px;
+    margin: 0 34px;
+}
+
+.imageContainer {
+    padding: 10px;
+    background-color: #f6f5f5;
+    cursor: pointer;
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.imageContainerSelected {
+    border: 1px solid #4783e6;
+    background-color: #fff;
+    cursor: no-drop; 
+    &:hover {
+        transform: none;
+    }
+}
+
+.headerSocialBlock {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

@@ -1,0 +1,26 @@
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-top: 1px solid #dcdcdc;
+    padding: 11px 0 12px 0;
+}
+
+.navItem {
+    background-color: #eaeaea;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    &:hover {
+        transform: scale(0.95);
+    }
+}
+
+.navMenu {
+    margin-left: 12px;
+    cursor: pointer;
+    &:hover {
+        transform: scale(0.9);
+    }
+}

@@ -1,0 +1,65 @@
+.footerLayout {
+    margin-top: 52px;
+    display: grid;
+    grid-template-columns: 169px 209px 218px 277px 213px 184px;
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 58px;
+}
+
+.footerColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    font-size: 15px;
+}
+
+.footerLogo {
+    width: 70%;
+}
+
+.footerColumnName {
+    font-weight: 600;
+    border-bottom: 1px solid #ededed;
+    margin-bottom: 27px;
+    padding-bottom: 24px;
+}
+
+.footerEmptyName {
+    height: 17px;
+}
+
+.footerPhoneNumber {
+    font-size: 33px;
+    font-weight: 600;
+    margin-top: -25px;
+}
+
+.footerWirkingHours {
+    margin-top: -20px;
+}
+
+.footerSocial {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footerSocialItem {
+    cursor: pointer;
+    &:active {
+        transform: scale(0.9);
+    }
+}
+
+.footerRightsBlock {
+    display: flex;
+    justify-content: space-between;
+    color: #828282;
+    padding: 26px 0 24px 0
+}
+
+.footerAdvanceMedia {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}

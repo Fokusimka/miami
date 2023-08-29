@@ -1,0 +1,34 @@
+.propertiesSection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    row-gap: 24px;
+    margin: 60px 0 57px 0;
+}
+
+.propertiesCard {
+    background-color: #f2f2f2;
+    padding: 18px 18px 18px 19px;
+    width: 378px;
+    height: 380px;
+}
+
+.propertiesCost {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 15px 0;
+    & span {
+        font-size: 18px;
+        &:last-child {
+            font-size: 17px;
+            font-weight: 600;
+        }
+    }
+}
+
+.propertiesDetails {
+    display: flex;
+    gap: 26px 15px;
+    padding-top: 21px;
+    border-top: 1px solid #dddddd;
+}  
